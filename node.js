@@ -19,7 +19,7 @@ app.get('/hello', function (req, res) {
 
 app.post('/' , function (req , res) {
     console.log(req.query);
-    res.('posted')
+    res.send('posted')
 
 });
 
